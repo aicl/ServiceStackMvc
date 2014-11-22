@@ -21,6 +21,12 @@ namespace Aicl.Liebre.WebHost
 
 			LogManager.LogFactory = new ConsoleLogFactory();
 
+			SetConfig(new HostConfig
+				{
+					DebugMode = true,
+					HandlerFactoryPath = "lbr-api",
+				});
+
 			Plugins.Add(new CorsFeature());
 			var appSettings = new AppSettings();
 			var url = appSettings.Get("MONGOLAB_URI", appSettings.Get("MONGOTEST_URI") );
