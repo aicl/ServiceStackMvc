@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 using System.Web.Mvc;
 using System.Web.Routing;
 using ServiceStack.MiniProfiler;
@@ -17,6 +17,7 @@ namespace Aicl.Liebre.WebHost
 		{
 			routes.IgnoreRoute("Content/{*pathInfo}");
 			routes.IgnoreRoute("lbr-api/{*pathInfo}"); 
+			routes.IgnoreRoute("");
 			routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
 			routes.MapRoute(

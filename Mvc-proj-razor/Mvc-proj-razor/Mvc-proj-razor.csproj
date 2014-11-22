@@ -120,6 +120,7 @@
     </Compile>
     <Compile Include="AppHost.cs" />
     <Compile Include="Controllers\DiagnosticoInfoController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -131,6 +132,7 @@
     <Content Include="packages.config" />
     <Content Include="index.html" />
     <Content Include="Views\DiagnosticoInfo\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -146,8 +148,4 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
-  <ItemGroup>
-    <None Include="Controllers\HomeController.cs" />
-    <None Include="Views\Home\Index.cshtml" />
-  </ItemGroup>
 </Project>
