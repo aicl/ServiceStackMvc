@@ -11,23 +11,12 @@ namespace Mvcprojrazor.Controllers
 	{
 		public ActionResult Index ()
 		{
-
-			Console.WriteLine (HttpContext);
-			Console.WriteLine (this);
-
-			var dto = Request.QueryString.GetDto<DiagnosticoInfo> ();
-			Console.WriteLine (dto);
 			var id = Request.QueryString["Id"]??Request.QueryString["id"];
-			Console.WriteLine (id);
-
 			using (var hello = HostContext.ResolveService<DiagnosticoInfoService>(HttpContext))
 			{
 				var result = hello.Get(new DiagnosticoInfo{Id=id} );
-				Console.WriteLine (result);
-				Console.WriteLine (((DiagnosticoInfoResponse) result).Empresa.Nombre );
 				return View (result);
 			}
-
 		}
 	}
 }
