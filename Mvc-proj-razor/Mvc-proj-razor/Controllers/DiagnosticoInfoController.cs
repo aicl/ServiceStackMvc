@@ -5,7 +5,7 @@ using ServiceStack;
 using Aicl.Liebre.ServiceInterface;
 using Aicl.Liebre.Model;
 
-namespace Mvcprojrazor.Controllers
+namespace Controllers
 {
 	public class DiagnosticoInfoController:ServiceStackController
 	{

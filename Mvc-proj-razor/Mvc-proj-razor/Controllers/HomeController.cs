@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using ServiceStack.Mvc;
 
-namespace Mvcprojrazor.Controllers
+namespace Controllers
 {
 	public class HomeController : ServiceStackController
 	{

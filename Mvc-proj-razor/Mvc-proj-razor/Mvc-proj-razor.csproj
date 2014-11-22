@@ -111,8 +111,14 @@
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\" />
     <Folder Include="Views\DiagnosticoInfo\" />
+    <Folder Include="bower_components\" />
+    <Folder Include="elements\" />
+    <Folder Include="flatiron-director\" />
+    <Folder Include="json\" />
+    <Folder Include="q\" />
+    <Folder Include="scripts\" />
+    <Folder Include="styles\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -121,6 +127,7 @@
     <Compile Include="AppHost.cs" />
     <Compile Include="Controllers\DiagnosticoInfoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -133,6 +140,59 @@
     <Content Include="index.html" />
     <Content Include="Views\DiagnosticoInfo\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="bower_components\platform\platform.js" />
+    <Content Include="bower_components\polymer\layout.html" />
+    <Content Include="bower_components\polymer\polymer.html" />
+    <Content Include="bower_components\polymer\polymer.js" />
+    <Content Include="elements\elements.vulcanized.html" />
+    <Content Include="flatiron-director\director.min.js" />
+    <Content Include="flatiron-director\flatiron-director.html" />
+    <Content Include="q\404.html" />
+    <Content Include="q\index.html" />
+    <Content Include="q\bower_components\platform\platform.js" />
+    <Content Include="q\bower_components\polymer\layout.html" />
+    <Content Include="q\bower_components\polymer\polymer.html" />
+    <Content Include="q\bower_components\polymer\polymer.js" />
+    <Content Include="q\elements\elements.vulcanized.html" />
+    <Content Include="q\flatiron-director\director.min.js" />
+    <Content Include="q\flatiron-director\flatiron-director.html" />
+    <Content Include="q\scripts\app.js" />
+    <Content Include="q\scripts\vendor\underscore-min.js" />
+    <Content Include="q\scripts\vendor\ydn.db-is-core-qry.js" />
+    <Content Include="q\styles\main.css" />
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\vendor\underscore-min.js" />
+    <Content Include="scripts\vendor\ydn.db-is-core-qry.js" />
+    <Content Include="styles\main.css" />
+    <Content Include="404.html" />
+    <Content Include="bower_components\platform\platform.js.map" />
+    <Content Include="bower_components\polymer\polymer.js.map" />
+    <Content Include="flatiron-director\AUTHORS" />
+    <Content Include="flatiron-director\LICENSE" />
+    <Content Include="flatiron-director\LICENSE.TXT" />
+    <Content Include="flatiron-director\PATENTS" />
+    <Content Include="json\actividadesaltoriesgo.json" />
+    <Content Include="json\CIIU.json" />
+    <Content Include="json\ciudades.json" />
+    <Content Include="json\departamentos.json" />
+    <Content Include="json\externos.json" />
+    <Content Include="json\rangos.json" />
+    <Content Include="json\requisitos.json" />
+    <Content Include="json\riesgos.json" />
+    <Content Include="q\bower_components\platform\platform.js.map" />
+    <Content Include="q\bower_components\polymer\polymer.js.map" />
+    <Content Include="q\flatiron-director\AUTHORS" />
+    <Content Include="q\flatiron-director\LICENSE" />
+    <Content Include="q\flatiron-director\LICENSE.TXT" />
+    <Content Include="q\flatiron-director\PATENTS" />
+    <Content Include="q\scripts\vendor\underscore-min.map" />
+    <Content Include="q\scripts\vendor\ydn.db-is-core-qry.js.map" />
+    <Content Include="q\appcache.manifest" />
+    <Content Include="q\favicon.ico" />
+    <Content Include="q\robots.txt" />
+    <Content Include="appcache.manifest" />
+    <Content Include="favicon.ico" />
+    <Content Include="robots.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -148,4 +208,24 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <None Include="bower_components\platform\.bower.json" />
+    <None Include="bower_components\platform\README.md" />
+    <None Include="bower_components\platform\bower.json" />
+    <None Include="bower_components\platform\build.log" />
+    <None Include="bower_components\polymer\.bower.json" />
+    <None Include="bower_components\polymer\README.md" />
+    <None Include="bower_components\polymer\bower.json" />
+    <None Include="bower_components\polymer\build.log" />
+    <None Include="q\bower_components\platform\.bower.json" />
+    <None Include="q\bower_components\platform\README.md" />
+    <None Include="q\bower_components\platform\bower.json" />
+    <None Include="q\bower_components\platform\build.log" />
+    <None Include="q\bower_components\polymer\.bower.json" />
+    <None Include="q\bower_components\polymer\README.md" />
+    <None Include="q\bower_components\polymer\bower.json" />
+    <None Include="q\bower_components\polymer\build.log" />
+    <None Include="scripts\vendor\underscore-min.map" />
+    <None Include="scripts\vendor\ydn.db-is-core-qry.js.map" />
+  </ItemGroup>
 </Project>
